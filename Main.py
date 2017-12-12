@@ -11,7 +11,7 @@ import threading
 
 app = Flask(__name__)
 
-SELF_ID = '111'  # 要对应二维码的id
+SELF_ID = '001002'  # 要对应二维码的id
 GPIO_IN_List = [23]  # 红外端口列表,有6个，就填6个
 SERVER_IP = 'xxx.xxx.xxx.xxx:5001'
 
